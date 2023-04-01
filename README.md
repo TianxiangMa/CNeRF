@@ -41,13 +41,13 @@ Our pre-trained model on the 512 resolution FFHQ dataset can be downloaded [here
 Download our pre-trained model and place it in the checkpoints folder.
 
 Run the codes in `./scripts/inference.sh`.
-### Randomly Generate 3D-aware Faces
+### Randomly generating 3D-aware faces
 `python inference_Full.py --trained_ckpt checkpoints/final_model.pt --results_dir results --identities 3 --size 512 --truncation_ratio 0.7 --no_surface_renderings`
 
-### Renderring Mesh
+### Rendering mesh
 If you want render the face mesh, remove the parameter `--no_surface_renderings`.
 
-### Generating local semantics
+### Generating local semantic regions
 One of the features of our CNeRF is the ability to generate only certain semantic regions of the face, for example you can add the following parameter
 `--semantics 2`. This way the model generates only the eyes area.
 
@@ -61,13 +61,11 @@ If you wish to train a model from scratch, first you need to convert your datase
 `python prepare_data.py --out_path OUTPUT_LMDB_PATH --n_worker N_WORKER --size SIZE1,SIZE2,SIZE3,... INPUT_DATASET_PATH`
 
 ### Training CNeRF volume renderer
-#### Training scripts
 To train the CNeRF on FFHQ run: `bash ./scripts/train_CNeRF.sh`. <br>
 
 * The scripts above use distributed training. To train the models on a single GPU remove `-m torch.distributed.launch --nproc_per_node NUM_GPUS` from the script.
 
 ### Training full model
-#### Training scripts
 You need to finish training the CNeRF model from the previous step first.
 To train the full model (High-Resolution Synthesis) on FFHQ run: `bash ./scripts/train_Full.sh`. <br>
 
