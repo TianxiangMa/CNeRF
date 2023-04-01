@@ -33,7 +33,7 @@ If any of these packages are not installed on your computer, you can install the
 ```pip install -r requirements.txt```
 
 ## Download Pre-trained Models
-The pre-trained models on FFHQ dateset at 512 resulation can be downloaded in [model](https://drive.google.com/file/d/1td8s7gNbcI7vaB0JPkCOkYSqzr02tdUN/view?usp=sharing).
+Our pre-trained model on the 512 resolution FFHQ dataset can be downloaded [here](https://drive.google.com/file/d/1td8s7gNbcI7vaB0JPkCOkYSqzr02tdUN/view?usp=sharing).
 
 
 ## Quick Start
