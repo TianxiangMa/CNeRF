@@ -3,7 +3,11 @@
 ### [Code](https://github.com/TianxiangMa/CNeRF) | [paper](https://arxiv.org/pdf/2302.01579.pdf)
 
 The Pytorch implementation of our AAAI2023 Oral paper "Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field".
- 
+
+<div align="center">
+<img src=./assets/teaser.pdf>
+</div>
+
 ## Pre-Requisits
 You must have a **GPU with CUDA support** in order to run the code.
 
