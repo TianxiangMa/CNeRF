@@ -1,6 +1,6 @@
 # Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field
 
-### [Code](https://github.com/TianxiangMa/CNeRF) | [paper](https://arxiv.org/pdf/2302.01579.pdf)
+### [code](https://github.com/TianxiangMa/CNeRF) | [paper](https://arxiv.org/pdf/2302.01579.pdf)
 
 The Pytorch implementation of our AAAI2023 Oral paper "Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field".
 
