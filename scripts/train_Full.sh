@@ -1,0 +1,2 @@
+# multi GPU
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --master_port 1234 --nproc_per_node 4 train_Full.py --batch 4 --chunk 4 --expname Full_model --dataset_path /your_lmdb_dataset_path  --size 512 --pretrain_render_path /your_trained_CNeRF_model
