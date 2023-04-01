@@ -63,13 +63,11 @@ If you wish to train a model from scratch, first you need to convert your datase
 ### Training CNeRF volume renderer
 To train the CNeRF on FFHQ run: `bash ./scripts/train_CNeRF.sh`. <br>
 
-* The scripts above use distributed training. To train the models on a single GPU remove `-m torch.distributed.launch --nproc_per_node NUM_GPUS` from the script.
 
 ### Training full model
 You need to finish training the CNeRF model from the previous step first.
 To train the full model (High-Resolution Synthesis) on FFHQ run: `bash ./scripts/train_Full.sh`. <br>
 
-* The scripts above use distributed training. To train the models on a single GPU remove `-m torch.distributed.launch --nproc_per_node NUM_GPUS` from the script.
 
 ## Citation
 If you use this code for your research, please cite our paper:
