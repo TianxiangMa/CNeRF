@@ -75,7 +75,7 @@ If you use this code for your research, please cite our paper:
 ```
 @inproceedings{ma2023semantic,
   title={Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field},
-  author={Ma, Tianxiang and Bingchuan, Li and Qian, He and Dong, Jing and Tieniu, Tan},
+  author={Ma, Tianxiang and Li, Bingchuan and He, Qian and Dong, Jing and Tan, Tieniu},
   booktitle = {Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI)},
   year={2023}
 }
