@@ -40,6 +40,7 @@ Our pre-trained model on the 512 resolution FFHQ dataset can be downloaded [here
 
 Download our pre-trained model and place it in the checkpoints folder.
 
+See the scripts in `./scripts/inference.sh`.
 ### Randomly Generate 3D-aware Faces
 `python inference_Full.py --trained_ckpt checkpoints/final_model.pt --results_dir results --identities 3 --size 512 --truncation_ratio 0.7 --no_surface_renderings`
 
