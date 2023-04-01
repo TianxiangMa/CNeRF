@@ -5,7 +5,7 @@
 The Pytorch implementation of our AAAI2023 Oral paper "Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field".
 
 <div align="center">
-<img src=./assets/teaser.pdf>
+<img src=./assets/teaser.png>
 </div>
 
 ## Pre-Requisits
