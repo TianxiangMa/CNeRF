@@ -1,4 +1,5 @@
 # Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field
+## Compositional-NeRF / CNeRF
 
 ### [code](https://github.com/TianxiangMa/CNeRF) | [paper](https://arxiv.org/pdf/2302.01579.pdf)
 
