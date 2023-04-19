@@ -5,7 +5,7 @@
 
 The Pytorch implementation of our AAAI2023 Oral paper "Semantic 3D-aware Portrait Synthesis and Manipulation Based on Compositional Neural Radiance Field".
 
-#### Tianxiang Ma, Bingchuan Li, Qian He, Jing Dong, Tieniu Tan
+[Tianxiang Ma](https://tianxiangma.github.io/), Bingchuan Li, Qian He, Jing Dong, Tieniu Tan
 
 CRIPAC & NLPR, Institute of Automation, Chinese Academy of Sciences
 
